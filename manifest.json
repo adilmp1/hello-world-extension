@@ -1,11 +1,14 @@
 {
     "manifest_version": 3,
-    "name": "Hello World Extension",
+    "name": "Hello World Bootstrap Extension",
     "version": "1.0",
-    "description": "A simple Chrome extension that shows a popup with 'Hello, World!'",
+    "description": "A simple Chrome extension styled with local Bootstrap CSS",
     "action": {
       "default_popup": "popup.html",
       "default_icon": "icon.png"
+    },
+    "content_security_policy": {
+      "extension_pages": "default-src 'self'; style-src 'self'; script-src 'self';"
     }
   }
   

@@ -1,3 +1,4 @@
 document.getElementById("clickMe").addEventListener("click", function() {
-    alert("Hello from your Chrome Extension!");
-});
+    alert("Hello from your Bootstrap-styled Chrome Extension!");
+  });
+  
