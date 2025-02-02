@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello World Bootstrap Extension</title>
-  <!-- Link to the local Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- (Optional) Link to a custom CSS file for extra styling -->
-  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hello World Tailwind Extension</title>
+  <!-- Include the locally downloaded Tailwind CSS -->
+  <link rel="stylesheet" href="css/tailwind-all.min.css" />
 </head>
-<body class="p-3">
-  <div class="container text-center">
-    <h2 class="mb-3">Hello, World!</h2>
-    <!-- Button with additional Bootstrap classes for larger size and shadow -->
-    <button id="clickMe" class="btn btn-primary btn-lg shadow">
+<body class="p-4 bg-gray-100">
+  <div class="container mx-auto text-center">
+    <h2 class="text-2xl font-bold text-gray-800 mb-4">Hello, World!</h2>
+    <!-- Tailwind-styled button -->
+    <button id="clickMe" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow">
       Click Me
     </button>
   </div>
-  <!-- Link to your JavaScript file -->
   <script src="js/popup.js"></script>
 </body>
 </html>

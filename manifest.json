@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Hello World Bootstrap Extension",
+    "name": "Hello World Tailwind Extension",
     "version": "1.0",
-    "description": "A simple Chrome extension styled with local Bootstrap CSS",
+    "description": "A simple Chrome extension styled with Tailwind CSS",
     "action": {
       "default_popup": "popup.html",
       "default_icon": "icon.png"
